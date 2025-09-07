@@ -1,3 +1,7 @@
+# simple Python demonstration of clustering and nearest neighbors classification using scikit-learn
+# 
+# 
+# 
 import numpy as np
 from pandas import DataFrame
 import matplotlib.pyplot as plt
@@ -100,3 +104,4 @@ print("Distance", distance)
 # take the vote and make the prediction alone
 
 print(labels[indices])
+
