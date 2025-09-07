@@ -62,3 +62,4 @@ predictions = mlp.predict(X_test)
 
 print(confusion_matrix(Y_test,predictions))
 print(classification_report(Y_test, predictions))
+
